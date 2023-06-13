@@ -9,7 +9,7 @@ import torch
 from torch.nn.functional import cosine_similarity
 from transformers import pipeline
 
-
+# Calculate cosine similarity
 def cossim(l1: list, l2: list):
     if l1 is None or l2 is None:
         return None
